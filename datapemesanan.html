@@ -1,0 +1,45 @@
+<html></!DOCTYPE html>
+<html>
+<head>
+	<title>Neng Ketty</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<script src="js/plusminus.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid col-12">
+			<nav class="navbar navbar-light bg-red">
+			  <a class="navbar-brand mx-auto" href="#">
+			    <img src="img/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
+			  </a>
+			</nav>
+	</div>
+	<div class="col-5 pesan mx-auto">
+		<div class="keranjang-content">
+			<h3 style="padding-top: 24px;">Data Pemesanan</h3>
+			<form action="/action_page.php">
+			  <div class="form-group">
+			    <label for="pesan">Nama Pemesan:</label>
+			    <input type="text" class="form-control" placeholder="Masukan nama pemesan" id="pemesan">
+			  </div>
+			  <div class="form-group">
+			    <label for="notel">No Telp :</label>
+			    <input type="tel" class="form-control" placeholder="Masukan nomor telepon" id="notel">
+			  </div>
+			  <div class="form-group">
+			    <label for="alamat">Alamat Pengantaran:</label>
+			    <textarea class="form-control" id="alamat" rows="3"></textarea>
+			  </div>
+	
+			  <div class="total text-right">
+				<h4 class="color-red">Total : <b>Rp 5000</b></h4>
+			 </div>
+			 <button type="submit" class="btn btn-pesan col-12 data-pesan">Pesan</button>
+			</form>
+	</div>
+</body>
+</html>
